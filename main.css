@@ -1,0 +1,148 @@
+html,
+body {
+	margin: 20px auto;
+	padding: 0;
+	width: 80%;
+}
+
+header {
+	display: flex;
+	align-items: flex-end;
+}
+
+.name {
+	width: 40%;
+	background-color: rgba(177, 172, 172, 0.58);
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.menu {
+	background-color: rgba(177, 172, 172, 0.58);
+	width: 60%;
+	padding: 15px;
+	color: white;
+}
+
+.menu {
+	padding: 10px;
+	padding-bottom: 0;
+}
+
+.menu .block {
+	padding: 7px;
+	background-color: rgba(114, 114, 114, 0.842);
+}
+
+.menu .active {
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.content-top {
+	display: inline-block;
+}
+
+.block {
+	display: inline-block;
+	border: soid red;
+}
+
+.content-top {
+	display: flex;
+	gap: 1px;
+	height: 200px;
+}
+
+.content-top .left {
+	flex: 0.5;
+	background: url('https://s3.stc.all.kpcdn.net/money/wp-content/uploads/2023/09/tether-usdt.jpg');
+
+	object-fit: cover;
+}
+
+.content-top .right {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+}
+
+.content-top .right .block1 {
+	flex: 0.5;
+	background: url('https://klike.net/uploads/posts/2023-04/1681098092_3-23.jpg');
+}
+
+.content-top .right .block2 {
+	flex: 0.5;
+	background: url('https://pressreleasenetwork.com/site/wp-content/uploads/2020/06/crypto10.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-center {
+	display: flex;
+	gap: 30px;
+	width: 70%;
+	margin: 10px auto;
+}
+
+.content-center .block {
+	border: solid green;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+}
+
+.logo img {
+	height: 70px;
+	width: 70px;
+	object-fit: cover;
+	border-radius: 50px;
+}
+
+.content-bottom {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.content-bottom .block {
+	border: 1px solid grey;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+}
+
+.content-bottom .text {
+	width: 100%;
+	text-align: center;
+	flex: 1;
+}
+
+.content-bottom .text p {
+	text-align: justify;
+}
+
+.content-bottom .image {
+	height: 100%;
+	width: 200px;
+	float: right;
+}
+
+.image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
